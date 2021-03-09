@@ -655,7 +655,7 @@ rgb(121, 106, 106);
     text-align: center;
 }
 .servicesv6-box{
-flex-basis:100%;}
+flex-basis:80%;}
   
 .servicesv6{display:flex;
   flex-wrap: wrap;
@@ -663,7 +663,7 @@ flex-basis:100%;}
   }
 .servicesv6-box{
   padding: 0rem;
-flex-basis:100%;}
+flex-basis:80%;}
 .servicesv6{display:flex;
   flex-wrap: wrap;
   justify-content:center;
