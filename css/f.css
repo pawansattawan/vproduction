@@ -475,7 +475,7 @@ display: inline-block;font-family: topfontp;
 }
 .footerv4{
   background-color: #24262b;
-   padding: 26px 1px 0px 0px;
+   padding: 0px 1px 0px 0px;
 }
 .footer-colv4{
    width: 25%;box-sizing: border-box;
@@ -485,7 +485,8 @@ display: inline-block;font-family: topfontp;
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
-  margin-bottom: 35px;
+  margin-bottom:13px;
+  margin-top:14px;
   font-weight: 500;
   position: relative;
 }
