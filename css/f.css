@@ -661,10 +661,8 @@ flex-basis:100%;}
   flex-wrap: wrap;
   justify-content:center;
   }
-}
-@media only screen and (max-width: 750px) {
 .servicesv6-box{
-
+  padding: 0rem;
 flex-basis:100%;}
 .servicesv6{display:flex;
   flex-wrap: wrap;
@@ -672,8 +670,6 @@ flex-basis:100%;}
 
   }
 }
-
-
 
 .span-v7{padding-top: 2rem; 
    font-family:topfontp;font-size:3rem;text-align: center;text-transform: capitalize;
