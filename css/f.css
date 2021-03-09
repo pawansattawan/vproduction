@@ -543,7 +543,7 @@ display: inline-block;font-family: topfontp;
 }
 @media(max-width: 574px){
   .footer-colv4{
-    width: 100%;
+    width: 50%;
 }
 }
 
