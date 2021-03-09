@@ -574,14 +574,20 @@ text-decoration: none;
 @media(max-width:600px){
 
 
- .cp-textv4 a{font-size:1.2rem;color:red;opacity: .8;
+ .cp-textv4 a{font-size:1.2rem;color:red;;
 text-decoration: none;
   letter-spacing: 1px;}
+  
+  
 .cp-textv4{background-color: #696f6b;
-    display: block;
+    display: block;opacity: .8;
     margin-top: 0px;
     font-size: 1.2rem;
-    height: 27px;
+    height: 27px;  text-shadow:none;
+  -webkit-box-shadow: none;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:  none;  /* Firefox 3.5 - 3.6 */
+  box-shadow:none;
+
 }
 
   
