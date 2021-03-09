@@ -534,7 +534,7 @@ display: inline-block;font-family: topfontp;
 }
 
 /*responsive*/
-@media(max-width:900px){.hv8 span{ display:inline-block;margin-top:8px;}
+@media(max-width:900px){.hv8 span{ display:inline-block;margin-top:4px;}
   .footer-colv4{
     width: 50%;
     margin-bottom: 30px;
@@ -563,19 +563,26 @@ display: inline-block;font-family: topfontp;
   }
   .cp-textv4 a{font-size:1.4rem;color:red;
 text-decoration: none;
-  font-weight:bold;letter-spacing: 2px;
+  letter-spacing: 2px;font-weight: bold;
 
 
   }
 
 
-  }
-.cp-textv4 a:hover,.cp-textv4 a:active{font-size:1.4rem;color:red;
+
+@media(max-width:600px){
+
+
+ .cp-textv4 a{font-size:1.2rem;color:red;
 text-decoration: none;
-  font-weight:bold;letter-spacing: 2px;
+  letter-spacing: 1px;}
+.cp-textv4{ display:block;
+    padding: 10px;
+    background-color: #24262b;
+    display: block;margin-top: 56px;font-size:1.2rem;}
 
-
-  }
+  
+}
 
 
 
@@ -647,14 +654,7 @@ rgb(121, 106, 106);
 
 }
 
-@media only screen and (max-width: 600px) {.servicesv6h span{padding: 4rem;}
-.servicesv6h p{
-  font-weight: 1.3rem;
-  font-size:2.1rem;
-    line-height:2.9rem; 
-    font-family: topfontp;
-   
-}
+
 
 .servicesv6-box{
 
@@ -753,7 +753,7 @@ flex-basis:50%;}
 }
 @media screen and (max-width: 580px) {
   .counter-upv7 .contentv7 .boxv7{
-
+padding: 0px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -965,7 +965,7 @@ text-align: center;
   }
 }
 @media (max-width: 600px) {
-  .video { flex-basis:50%;
+  .video { flex-basis:85%;
   }
 }
 
