@@ -646,7 +646,8 @@ rgb(121, 106, 106);
 
 }
 
-@media only screen and (max-width: 750px) {.servicesv6-img {
+@media only screen and (max-width: 750px) {
+  .servicesv6-img {
     padding: 0rem;
 }
 .servicesv6h {
@@ -655,6 +656,7 @@ rgb(121, 106, 106);
 }
 .servicesv6-box{
 flex-basis:100%;}
+  
 .servicesv6{display:flex;
   flex-wrap: wrap;
   justify-content:center;
@@ -663,7 +665,7 @@ flex-basis:100%;}
 @media only screen and (max-width: 750px) {
 .servicesv6-box{
 
-flex-basis:70%;}
+flex-basis:100%;}
 .servicesv6{display:flex;
   flex-wrap: wrap;
   justify-content:center;
