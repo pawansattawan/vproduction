@@ -550,7 +550,7 @@ display: inline-block;font-family: topfontp;
 
 
 
-.cp-textv4{ display:block;
+.cp-textv4{ display:block;opacity: .8;
     padding: 10px;
     background-color: #24262b;
     display: block;margin-top: 56px;font-size:1.4rem;
@@ -574,7 +574,7 @@ text-decoration: none;
 @media(max-width:600px){
 
 
- .cp-textv4 a{font-size:1.2rem;color:red;
+ .cp-textv4 a{font-size:1.2rem;color:red;opacity: .8;
 text-decoration: none;
   letter-spacing: 1px;}
 .cp-textv4{background-color: #696f6b;
