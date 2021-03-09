@@ -31,8 +31,13 @@ html{
 
 }
  
-@media (max-width: 900px) {
-  #e{font-size: 2.4rem;opacity: .5;
+@media (max-width: 900px) {#e:hover{font-size: 1.8rem;
+ color:red;
+ outline: none;opacity:.5
+
+}
+ 
+  #e{opacity: .5;
  color: red;outline: none;position: relative;bottom: 30%;
  font-size: 1.8rem;}}
 
