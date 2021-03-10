@@ -354,7 +354,7 @@ to{
       display: block;
       margin:6px 0px 6px 0px;
     }
-    #nav-check-v2:checked ~ .nav-v2{border-top: solid black 1px;
+    #nav-check-v2:checked ~ .nav-v2{box-shadow: inset 0px 0px 2px red;
        opacity: 1;
        visibility: visible;
        transition: 1s;
