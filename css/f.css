@@ -250,7 +250,11 @@ border-top: solid black 2px;
   margin: auto;position: relative
 }
 .logo-v2{width: 24rem; height:5rem;
- border: solid red 1px; 
+ /*border: solid red 1px; */text-align: center;
+}
+.logo-v2 img{padding
+  width: 100%;
+  height: auto;
 }
 .row-v2{
   display: flex;
