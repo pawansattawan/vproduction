@@ -544,7 +544,13 @@ display: inline-block;font-family: topfontp;
     width: 50%;
     margin-bottom:5px;
 }.footer-colv4 ul li a{
-  font-size: 13px;}
+  font-size: 13px;}.footer-colv4 .social-links a{
+  height: 32px;
+  width: 32px;
+ 
+  line-height: 35px;
+ ;font-size: 2.2rem;
+}
 }
 @media(max-width: 574px){
   .footer-colv4{
