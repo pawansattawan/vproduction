@@ -539,7 +539,8 @@ display: inline-block;font-family: topfontp;
   .footer-colv4{
     width: 50%;
     margin-bottom:5px;
-}
+}.footer-colv4 ul li a{
+  font-size: 13px;}
 }
 @media(max-width: 574px){
   .footer-colv4{
