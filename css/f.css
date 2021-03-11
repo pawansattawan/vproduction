@@ -249,7 +249,7 @@ border-top: solid black 1px;
   max-width: 117rem;
   margin: auto;position: relative
 }
-.logo-v2{width: 24rem; height:5rem;
+.logo-v2{width: 24rem; height:5rem;overflow: hidden;
  /*border: solid red 1px; */text-align: center;
 }
 .logo-v2 img{
