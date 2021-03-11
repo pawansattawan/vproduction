@@ -45,12 +45,12 @@ display:inline-block;width:auto;width: 210px;
 vertical-align: center;height: 210px;box-shadow: inset 1px 1px 10px 0px black;
 
 }.i-v10{text-align: center;vertical-align: center;
-       width: 110px;height:110px;margin-top: 15px;
+       width: 110px;height:110px;margin-top: 10px;
 	display: inline-block;
 }.i-v10 img{
 	border-radius: 50%;
 }
-.i-text-v10 h2{text-transform: capitalize; font-size: 15px;letter-spacing: 1px;
+.i-text-v10 h2{text-transform: capitalize; font-size: 15px;letter-spacing: 1px;padding: 2px;
 
 }
 .i-text-v10 h3{text-transform: capitalize; font-size: 10px;letter-spacing: 1px;opacity: 0.6;
