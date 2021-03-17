@@ -1490,3 +1490,31 @@ box-shadow:0px 0px 7px 0px #000000;
 .mainv16{display: flex;justify-content: center;
  flex-wrap: wrap;margin-top: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+.fancybox-nav {
+    position: absolute;
+    top: 0;
+    width: 10%;
+    height: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent url(../images/fb/blank.gif);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    z-index: 8040;
+  }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
