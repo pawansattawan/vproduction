@@ -1,0 +1,116 @@
+:root {
+  --box-height: 35px;
+  --border-radius :4px;
+  --space-between: 20px;
+  --font-size: 16px;
+
+  --color-0: #ffffff;
+  --color-1:#ffffff;
+  --color-2: #c5c3c6;
+  --color-3: #212529;
+  --color-4: #ff0000;
+  --color-5: #ce4257;
+}
+
+
+
+#survey-formv14 { width: 60%; margin: 0px 20% 0px 20%;
+   padding-bottom: 20px;
+  padding-top: 20px;
+  background: var(--color-1);
+  opacity: 98%;
+  border: none;
+  border-radius: calc(2 * var(--border-radius));
+}
+
+#survey-formv14 * {
+  font-size: var(--font-size);
+}
+
+.row-labelv14,
+.row-inputv14 {
+  padding: 1px 1px;
+  margin: 0;
+  height: var(--box-height);
+  width: 100%;
+  display: block;
+}
+
+.row-labelv14 {
+  color: var(--color-3);
+  
+}
+
+.row-labelv14:not(:first-child) {
+  margin-top: var(--space-between);
+}
+
+.row-inputv14:not(.smallv14) {outline: none;
+  background: white;border-opacity: 0.3;
+  border: none;border-bottom:solid red 1px;border-top:solid red 1px;
+  border-radius: var(--border-radius);    
+}
+.row-inputv14:not(.smallv14):hover {
+outline: none;border-opacity: 0.2;
+  background: white;
+  border: none;border-bottom:solid red 1px;border-top:solid red 1px;
+  border-radius: var(--border-radius);    box-shadow: 0px 0px 2px red;
+
+}
+.inline-labelv14 {
+  margin-left: 10px;
+  font-size: 14px;
+  color: var(--color-3);
+}
+
+.smallv14 {
+  height: calc(var(--box-height) * 0.75);
+}
+
+#commentsv14 {border-bottom: solid red 2px;
+  padding: 10px;
+  margin: 0;
+  height: 40px;
+  width: 100%;
+  background: white;
+  border: none;
+  border-radius: var(--border-radius);
+  resize: none;
+}#commentsv14:hover{
+   box-shadow: 0px 0px 2px red;
+
+}
+
+#submitv14 {outline: none;
+  margin-top: calc(2 * var(--space-between));
+  height: var(--box-height);
+  width: 100%;
+  background: var(--color-4);
+  border: none;
+  border-radius: var(--border-radius);
+  color: white;
+  
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+#submitv14:hover {
+  box-shadow: 0 0 2px var(--color-3);
+}
+.youtubetv16{max-width:75%;
+
+}
+.youtubetv16 p{font-size: 15px;padding: 0px 20px;display: block;text-align: center;opacity: .6;
+
+}
+.youtubetv16 h1{font-size: 20px;padding: 20px;color: red;
+
+}
+.youtubefv16{ margin: 20px;
+  opacity:.85;
+
+
+}
+.mainv16{display: flex;justify-content: center;
+ flex-wrap: wrap;margin-top: 30px;
+}
