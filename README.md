@@ -10,6 +10,6 @@
 
 ---
 
-Cheers!  
+developer !  
 Pawan Meena :two_hearts:
 
